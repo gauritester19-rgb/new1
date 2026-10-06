@@ -293,11 +293,7 @@ export default function Settings() {
                       <div>
                         <CreditCard />
                         <span>
-                          <strong>Payments</strong>
-                          <small>Stripe · Connected</small>
-                        </span>
-                        <i />
-                      </div>
+                          
                       <div>
                         <BarChart3 />
                         <span>
