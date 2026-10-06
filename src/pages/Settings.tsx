@@ -293,7 +293,11 @@ export default function Settings() {
                       <div>
                         <CreditCard />
                         <span>
-                         
+                          <strong>Payments</strong>
+                          <small>Stripe · Connected</small>
+                        </span>
+                        <i />
+                      </div>
                       <div>
                         <BarChart3 />
                         <span>
@@ -343,7 +347,8 @@ export default function Settings() {
                   </Section>
                   <Section title="Preview" description="Your preferences are applied immediately.">
                     <p className="settings-preview">
-                     
+                      <Plug /> Interface preferences are active for this browser.
+                    </p>
                     <Button variant="outline" onClick={() => { setDark(false); setCompact(false); setFontSize('medium'); notify('Appearance preferences reset.') }}>Reset Appearance</Button>
                   </Section>
                 </div>
